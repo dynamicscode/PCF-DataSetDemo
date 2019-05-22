@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# generated directory
+**/generated
+
+# output directory
+/out
+DataSetControlDemoSolution/DataSetControlDemoSolution.cdsproj
+DataSetControlDemoSolution/bin/Debug/DataSetControlDemoSolution.zip
+DataSetControlDemoSolution/bin/Debug/SolutionPackager.log
+DataSetControlDemoSolution/obj/DataSetControlDemoSolution.cdsproj.nuget.cache
+DataSetControlDemoSolution/obj/DataSetControlDemoSolution.cdsproj.nuget.dgspec.json
+DataSetControlDemoSolution/obj/DataSetControlDemoSolution.cdsproj.nuget.g.props
+DataSetControlDemoSolution/obj/DataSetControlDemoSolution.cdsproj.nuget.g.targets
+DataSetControlDemoSolution/obj/project.assets.json
+DataSetControlDemoSolution/obj/Debug/Controls/DataSetControlDemo/ControlManifest.xml
+DataSetControlDemoSolution/obj/Debug/Controls/DataSetControlDemo/ControlManifest.xml.data.xml
+DataSetControlDemoSolution/obj/Debug/Controls/DataSetControlDemo/bundle.js
+DataSetControlDemoSolution/obj/Debug/other/Customizations.xml
+DataSetControlDemoSolution/obj/Debug/other/Relationships.xml
+DataSetControlDemoSolution/obj/Debug/other/Solution.xml
+DataSetControlDemoSolution/other/Customizations.xml
+DataSetControlDemoSolution/other/Relationships.xml
+DataSetControlDemoSolution/other/Solution.xml
