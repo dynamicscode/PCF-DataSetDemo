@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="dynamicscode" constructor="DataSetControlDemo" version="0.0.1" display-name-key="DataSet Control Demo" description-key="DataSet Control Demo" control-type="standard">
+  <control namespace="qms" constructor="ConnectionNetworkControl" version="0.0.1" display-name-key="Connection Network Control" description-key="A control to display a connection view in a diagram" control-type="standard">
     <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
-    <data-set name="dataSetGrid" display-name-key="Dataset Control Demo">
+    <data-set name="dataSetGrid" display-name-key="A connection view">
       <!-- 'property-set' node represents a unique, configurable property that each record in the dataset must provide. -->
       <!-- UNCOMMENT TO ADD PROPERTY-SET NODE
       <property-set name="samplePropertySet" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />

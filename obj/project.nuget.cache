@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4tMKYyY+QBykv+ig8k5PIDUopk6BFv/ayrFdz3mr5sl+7aJhxAezsvJ+umW5Xbv9LFBoj25rKCflkMuhdnoQQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Repo\\PCF-ConnectionNetworkControl\\PCF-DataSetDemo.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DynamicsCode\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\0.1.51\\microsoft.powerapps.msbuild.pcf.0.1.51.nupkg.sha512"
+  ],
+  "logs": []
+}

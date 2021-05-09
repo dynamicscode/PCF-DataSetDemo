@@ -16,7 +16,7 @@ type DataSet = ComponentFramework.PropertyTypes.DataSet;
 // 	label: string;
 // }
 
-export class DataSetControlDemo implements ComponentFramework.StandardControl<IInputs, IOutputs> {
+export class ConnectionNetworkControl implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 
 	private nodes:any[];
 	private edges:any[];

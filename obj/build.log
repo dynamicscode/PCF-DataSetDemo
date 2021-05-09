@@ -1,0 +1,35 @@
+﻿  Restore completed in 1.51 sec for C:\Repo\PCF-ConnectionNetworkControl\PCF-DataSetDemo.pcfproj.
+  Restore completed in 1.51 sec for C:\Repo\PCF-ConnectionNetworkControl\obj\PowerAppsTools_qms\PowerAppsTools_qms.cdsproj.
+  
+  > pcf-project@1.0.0 clean C:\Repo\PCF-ConnectionNetworkControl
+  > pcf-scripts clean "--buildmode" "development" "--outDir" "C:\Repo\PCF-ConnectionNetworkControl\out\controls\\"
+  
+  [5:29:05 PM] [clean]  Initializing...
+  [5:29:05 PM] [clean]  Cleaning build outputs...
+  [5:29:05 PM] [clean]  Succeeded
+  Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
+  Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_qms.zip
+  
+  > pcf-project@1.0.0 build C:\Repo\PCF-ConnectionNetworkControl
+  > pcf-scripts build "--buildmode" "development" "--outDir" "C:\Repo\PCF-ConnectionNetworkControl\out\controls\\"
+  
+  [5:29:08 PM] [build]  Initializing...
+  [5:29:08 PM] [build]  Validating manifest...
+  [5:29:08 PM] [build]  Validating control...
+  [5:29:09 PM] [build]  Generating manifest types...
+  [5:29:09 PM] [build]  Compiling and bundling control...
+  [BABEL] Note: The code generator has deoptimised the styling of C:\Repo\PCF-ConnectionNetworkControl\node_modules\vis\dist\vis.js as it exceeds the max of 500KB.
+  [Webpack stats]:
+  Hash: [1mbebf4c07c5e469f74676[39m[22m
+  Version: webpack [1m4.42.1[39m[22m
+  Time: [1m10279[39m[22mms
+  Built at: 05/09/2021 [1m5:29:20 PM[39m[22m
+      [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+  [1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+  Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+  [[1m./ConnectionNetworkControl/index.ts[39m[22m] 4.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+  [[1m./node_modules/vis/dist/vis.js[39m[22m] 1.45 MiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+  [5:29:20 PM] [build]  Generating build outputs...
+  [5:29:20 PM] [build]  Succeeded
+C:\Program Files\dotnet\sdk\3.1.201\Microsoft.Common.CurrentVersion.targets(2081,5): warning MSB3245: Could not resolve this reference. Expected a file but got directory "C:\Repo\PCF-ConnectionNetworkControl\out\controls\". If this reference is required by your code, you may get compilation errors. [C:\Repo\PCF-ConnectionNetworkControl\obj\PowerAppsTools_qms\PowerAppsTools_qms.cdsproj]
+C:\Repo\PCF-ConnectionNetworkControl\PCF-DataSetDemo.pcfproj : error MSB4057: The target "GetProjectOutputPath" does not exist in the project.
